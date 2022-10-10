@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 105px;
+    align-items: start;
+  }
+
+/* Custom Card */
+.App{
+  font-family: poppins;
+}
+.customCard{
+  width: 300px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+  margin-left:auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.customCard img{
+   width: 100%;
+}
+
+.customDetail{
+   padding-bottom: 3px;
+}
+
+.customDetail p{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+/* Model  */
+
+.mModel{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+  padding: 12px;
+  position:absolute;
+  z-index: 10;
+  left: 26%;
+  top: 5%;
+  background-color: white;
+}
+.imgContainer{
+  width: 50%;
+}
+.imgContainer img{
+  width: 100%;
+}
+.mModeldetail{
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.buttonMmodel button{
+  border: none;
+  outline: none;
+  background: lightblue;
+  padding: 9px;
+  cursor: pi;
+  cursor: pointer;
+
+
+}
